@@ -1,0 +1,43 @@
+# Ansible
+*.retry
+.ansible/
+
+# Inventory with sensitive data
+inventory/hosts.ini
+
+# Vault files
+*vault*
+*.vault
+.vault_pass
+vault_password_file
+
+# SSH keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Terraform (if in same repo)
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.env
