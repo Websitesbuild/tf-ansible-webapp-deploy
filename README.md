@@ -10,3 +10,8 @@
 5. Once, done then navigate to Ansible directory and run below cmd:
    
       ansible-playbook -i inventory/hosts.ini playbooks/site.yml
+
+
+   Access the app the on:
+
+   <ec2_public_ip>:8081
